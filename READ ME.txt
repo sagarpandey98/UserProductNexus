@@ -1,0 +1,14 @@
+PRODUCT SERVICE:
+The Product Service functions as the backbone of the product catalog, 
+facilitating CRUD operations for clients via a RESTful API. Leveraging 
+SQL databases, it ensures robust data storage and management. Moreover, 
+it optimizes performance through Redis caching, reducing database load. 
+Integration with Kafka enables real-time updates via mail services for users. 
+Exception handling is prioritized, ensuring graceful operation amidst challenges.
+
+
+USER SERVICE:
+The User Service implements OAuth 2.0 for secure authentication and authorization processes,
+ensuring robust user identity management. Its functionality encompasses user operations like 
+signup, login, and user authorization. By leveraging OAuth 2.0, it provides a secure and seamless 
+experience for user authentication and access control within the system
